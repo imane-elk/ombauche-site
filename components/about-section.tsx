@@ -13,6 +13,10 @@ const photos = [
     src: "/images/qui.jpeg",
     alt: "Maryem ELKHOUMSI - Interview Podcast",
   },
+  {
+    src: "/images/image3about.jpeg",
+    alt: "Maryem ELKHOUMSI - Formation & Coaching",
+  },
 ]
 
 const certifications = [
@@ -107,7 +111,7 @@ export function AboutSection() {
 
             <div className="space-y-4 text-muted-foreground leading-relaxed mb-8">
               <p>
-                Je suis consultante en recrutement, doctorante en management des ressources humaines et intervenante lors de plusieurs conférences RH. Au fil de mes expériences sur les marchés marocain, français et roumain, j’ai rencontré des talents incroyables… qui, pourtant, peinent à trouver l’opportunité qui reflète vraiment leur potentiel.
+                Je suis consultante en recrutement, doctorante en management des ressources humaines et intervenante lors de plusieurs conférences RH. Au fil de mes expériences sur les marchés marocain, français et roumain, j’ai rencontré des talents très compétents.. qui, pourtant, peinent à trouver l’opportunité qui reflète vraiment leur potentiel.
               </p>
               <p>
                 C’est ce constat qui m’a poussée à créer <strong className="text-[#002763] font-black uppercase tracking-wider">O'MBAUCHE</strong> :

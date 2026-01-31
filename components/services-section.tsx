@@ -124,7 +124,7 @@ export function ServicesSection() {
                   key={index}
                   className="flex-shrink-0 w-28 md:w-36 transition-all duration-700 hover:scale-105"
                 >
-                  <div className="h-16 md:h-20 flex items-center justify-center grayscale hover:grayscale-0 transition-all duration-500">
+                  <div className="h-16 md:h-20 flex items-center justify-center transition-all duration-500">
                     <Image
                       src={`/images/entreprises/${logo}`}
                       alt={`Partenaire ${logo}`}
