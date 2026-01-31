@@ -21,12 +21,12 @@ export function Navigation() {
       <nav className="container mx-auto px-4 lg:px-8">
         <div className="flex items-center justify-between h-28 lg:h-36">
           <Link href="#accueil" className="flex items-center">
-            <div className="relative w-24 h-24 lg:w-32 lg:h-32 rounded-full overflow-hidden border-2 border-[#002763]/10 shadow-lg">
+            <div className="relative w-24 h-24 lg:w-32 lg:h-32 rounded-full overflow-hidden border-2 border-[#002763]/10 shadow-lg bg-white">
               <Image
                 src="/images/logo.png"
                 alt="O'Mbauche"
                 fill
-                className="object-cover scale-[1.8] lg:scale-[2.1]"
+                className="object-cover scale-[1.8]"
                 priority
               />
             </div>
