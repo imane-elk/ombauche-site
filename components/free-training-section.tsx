@@ -71,18 +71,17 @@ export function FreeTrainingSection() {
               <Button
                 asChild
                 size="lg"
-                className="text-white text-sm md:text-lg px-6 md:px-12 py-5 md:py-7 rounded-full transition-all hover:-translate-y-1 font-extrabold w-full sm:w-auto mt-4"
+                className="text-white text-xs sm:text-sm md:text-lg px-4 sm:px-8 md:px-12 py-4 md:py-7 rounded-full transition-all hover:-translate-y-1 font-extrabold w-full sm:w-auto mt-4 h-auto min-h-[3.5rem]"
                 style={{ backgroundColor: '#0077b5', boxShadow: '0 10px 30px rgba(0, 119, 181, 0.3)' }}
               >
                 <a
                   href={trainingUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center justify-center gap-2 md:gap-3 text-center"
+                  className="flex items-center justify-center gap-2 md:gap-3 text-center w-full"
                 >
                   <Linkedin className="w-5 h-5 md:w-6 md:h-6 flex-shrink-0" style={{ color: '#FFFFFF', fill: '#FFFFFF' }} />
-                  <span className="leading-tight">Découvrez la formation
-                    gratuitement sur LinkedIn</span>
+                  <span className="leading-tight break-words">Découvrez la formation gratuitement sur LinkedIn</span>
                 </a>
               </Button>
             </div>
