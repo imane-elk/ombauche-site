@@ -114,7 +114,7 @@ export function ServicesSection() {
             Nos experts ont collaboré étroitement avec des entreprises de renom afin de répondre efficacement à leurs besoins en recrutement.
           </p>
 
-          <div className="mt-16 bg-white py-16 px-4 rounded-[40px] shadow-[0_10px_50px_-15px_rgba(0,0,0,0.05)] border border-slate-50 relative overflow-hidden">
+          <div className="mt-16 bg-white py-10 lg:py-16 px-4 rounded-[40px] shadow-[0_10px_50px_-15px_rgba(0,0,0,0.05)] border border-slate-50 relative overflow-hidden">
             <div className="relative flex items-center justify-between gap-8 md:gap-12 overflow-x-auto pb-8 scrollbar-hide px-4 lg:px-12">
               {[
                 "OCP.png", "alten.png", "attijari.png", "bank.png", "cgi.png", "cma.png",

@@ -16,7 +16,7 @@ export function HeroSection() {
       <div className="absolute inset-0 bg-[linear-gradient(to_right,#ffffff05_1px,transparent_1px),linear-gradient(to_bottom,#ffffff05_1px,transparent_1px)] bg-[size:64px_64px]" />
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-[#002763]/50" />
 
-      <div className="container mx-auto px-4 lg:px-8 py-20 relative z-10">
+      <div className="container mx-auto px-4 lg:px-8 py-10 lg:py-20 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
           <div
             className={`inline-block mb-6 px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full border border-white/20 transition-all duration-700 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-4"
@@ -26,11 +26,11 @@ export function HeroSection() {
           </div>
 
           <h1
-            className={`text-4xl md:text-5xl lg:text-7xl font-bold mb-6 leading-tight text-balance transition-all duration-700 delay-150 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
+            className={`text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold mb-6 leading-tight text-balance transition-all duration-700 delay-150 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
               }`}
           >
             Votre avenir professionnel
-            <span className="text-blue-300 block mt-2"> commence ici</span>
+            <span className="text-blue-300 block mt-1 sm:mt-2"> commence ici</span>
           </h1>
 
           <p

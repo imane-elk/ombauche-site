@@ -81,7 +81,8 @@ export function FreeTrainingSection() {
                   className="flex items-center justify-center gap-2 md:gap-3 text-center"
                 >
                   <Linkedin className="w-5 h-5 md:w-6 md:h-6 flex-shrink-0" style={{ color: '#FFFFFF', fill: '#FFFFFF' }} />
-                  <span className="leading-tight">Découvrez la formation gratuitement sur LinkedIn</span>
+                  <span className="leading-tight">Découvrez la formation
+                    gratuitement sur LinkedIn</span>
                 </a>
               </Button>
             </div>

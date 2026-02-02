@@ -62,7 +62,7 @@ export function WhyUsSection() {
 
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 max-w-7xl mx-auto">
           {/* Challenges Card */}
-          <div className="bg-white rounded-3xl p-8 lg:p-10 shadow-xl border-l-4 border-l-red-500 relative overflow-hidden group hover:shadow-2xl transition-all duration-300">
+          <div className="bg-white rounded-3xl p-6 lg:p-10 shadow-xl border-l-4 border-l-red-500 relative overflow-hidden group hover:shadow-2xl transition-all duration-300">
             <div className="absolute top-0 right-0 p-6 opacity-10 group-hover:opacity-20 transition-opacity">
               <AlertTriangle className="w-32 h-32 text-red-500 animate-pulse" />
             </div>
@@ -99,7 +99,7 @@ export function WhyUsSection() {
           </div>
 
           {/* Solutions Card */}
-          <div className="bg-white rounded-3xl p-8 lg:p-10 shadow-xl border-l-4 border-l-green-500 relative overflow-hidden group hover:shadow-2xl transition-all duration-300">
+          <div className="bg-white rounded-3xl p-6 lg:p-10 shadow-xl border-l-4 border-l-green-500 relative overflow-hidden group hover:shadow-2xl transition-all duration-300">
             <div className="absolute top-0 right-0 p-6 opacity-10 group-hover:opacity-20 transition-opacity">
               <Lightbulb className="w-32 h-32 text-green-500 animate-pulse" />
             </div>

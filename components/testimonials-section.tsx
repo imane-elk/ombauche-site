@@ -177,7 +177,8 @@ export function TestimonialsSection() {
               rel="noopener noreferrer"
             >
               <Linkedin className="mr-2 w-5 h-5 group-hover:scale-110 transition-transform" />
-              Consultez les recommandations LinkedIn
+              <span className="hidden sm:inline">Consultez les recommandations LinkedIn</span>
+              <span className="sm:hidden">Recommandations LinkedIn</span>
             </a>
           </Button>
         </div>
